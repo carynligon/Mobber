@@ -1,0 +1,313 @@
+header {
+  width: 100%;
+  height: 54px;
+  background: url("http://i.imgur.com/YFNLbmc.png") repeat;
+}
+
+.top-navigation {
+  float: left;
+  width: 37%;
+  padding-left: 18.5%;
+  margin-top: 0px;
+}
+
+.top-navigation::after {
+  content:"";
+  clear: both;
+}
+
+.top-navigation img {
+  width: 49px;
+  margin-right: 10px;
+  margin-top: 11px;
+}
+
+li {
+  display: inline-block;
+}
+
+.top-navigation li {
+  margin-right: 5.5%;
+  color: #fff;
+}
+
+.logo a {
+  font-family: serif;
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.user-menu {
+  float: right;
+  width: 29%;
+  margin-top: 1px;
+}
+
+.user-menu img {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.user-menu li {
+  vertical-align: middle;
+  color: #fff;
+}
+
+.dropdown {
+  height: 0;
+  width: 0;
+  border-left: 6.5px solid transparent;
+  border-right: 6.5px solid transparent;
+  border-top: 7px solid gray;
+}
+
+.user-menu::after {
+  content:"";
+  clear: both;
+}
+
+h1 {
+  height: 39px;
+  font-size: 1.7em;
+  font-weight: lighter;
+  letter-spacing: -0px;
+  text-align: center;
+  padding-top: 5px;
+  color: #3c3c3c;
+}
+
+.main-wrapper {
+  width: 63%;
+  margin: 0 auto;
+}
+
+main {
+  background: #f2f0ec;
+  border-top: 3.5px solid #e9e8e6;
+}
+
+.selected-mob {
+  width: 100%;
+  padding-top: 24px;
+}
+
+.left-wrapper {
+  width: 65.8%;
+  float: left;
+}
+
+.mob-image {
+  height: 361px;
+  background: url("http://placekitten.com/575/375");
+  position: relative;
+}
+
+.image-overlay {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  height: 52px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-overlay h2 {
+  margin-top: 12px;
+  margin-left: 3.5%;
+  letter-spacing: -0.8px;
+  font-weight: lighter;
+  color: #fff;
+  float: left;
+}
+
+.timer {
+  float: right;
+  padding-top: 15px;
+  padding-right: 4.2%;
+}
+
+.timer-icon {
+  color: #fcd200;
+  font-size: 1.25em;
+}
+
+.timer span {
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.mob-message {
+  height: 74px;
+  background: pink;
+}
+
+.mob-message h4 {
+  margin: 0;
+  padding-left: 4%;
+  padding-top: 20px;
+}
+
+.selected-mob h6 {
+  width: 85%;
+  font-size: 0.65em;
+  margin: 6px 25px;
+}
+
+.mob-details {
+  height: 378px;
+  float: left;
+  margin-left: 2.1%;
+  width: 32%;
+}
+
+.current-total {
+  float: left;
+  width: 47%;
+  height: 133px;
+  background: gray;
+  margin-right: 7%;
+}
+
+.total-needed {
+  float: left;
+  width: 46%;
+  height: 133px;
+  background: gray;
+}
+
+.total-needed::after {
+  content:"";
+  clear: both;
+}
+
+.join {
+  margin-top: 23px;
+  height: 57px;
+  width: 100%;
+  border-radius: 5%;
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: lighter;
+  border: 1px solid #c0a311;
+  background: linear-gradient(to bottom, rgba(252, 210, 0, 0.7) 40%, rgba(252, 210, 0, 1));
+}
+
+.reward {
+  height: 65px;
+  width: 95%;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  margin: 0 auto;
+  background: #fff;
+  padding-bottom: 3px;
+}
+
+.selected-mob::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.ending-soon {
+  width: 100%;
+  margin-top:51px;
+}
+
+.jcrew-mob {
+  height: 225px;
+  width: 31.5%;
+  background: yellow;
+  margin-right: 21px;
+  float: left;
+}
+
+.ruthsChris-mob {
+  height: 225px;
+  width: 31.5%;
+  background: yellow;
+  margin-right: 21px;
+  float: left;
+}
+
+.twistedSister-mob {
+  height: 225px;
+  width: 31.5%;
+  background: yellow;
+  float: left;
+}
+
+.ending-soon::after {
+  content:"";
+  clear: both;
+  display: block;
+}
+
+.section2 {
+  height: 275px;
+}
+
+.upcoming {
+  float: left;
+  width: 66.5%;
+}
+
+.upcoming h3 {
+  margin-top: 46px;
+  margin-bottom: 18px;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+}
+
+.upcoming ul {
+  width: 100%;
+  font-size: 0.8em;
+  padding: 0;
+  display: inline-block;
+  margin-bottom: 6.5px;
+  margin-bottom: 0;
+  margin-top: 12px;
+}
+
+.upcoming li {
+  padding-bottom: 7.7px;
+}
+
+.mob-name {
+  font-weight: bold;
+  width: 170px;
+}
+
+.mobbers-needed {
+  padding-left: 9%;
+  padding-right: 13.5%;
+}
+
+.mob-date {
+  text-align: right;
+}
+
+.start-your-own {
+  background: gray;
+  height: 189px;
+  width: 31.5%;
+  float: left;
+  margin-top: 49px;
+  margin-left: 1.5%;
+}
+
+.section2::after {
+  content: "";
+  clear: both:both;
+  display: block;
+}
+
+footer {
+  margin-top: 15px;
+  height: 307px;
+  background: navy;
+}

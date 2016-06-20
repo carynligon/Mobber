@@ -100,7 +100,7 @@ main {
 
 .mob-image {
   height: 361px;
-  background: url("http://placekitten.com/575/375");
+  background: url("http://placekitten.com/600/380");
   position: relative;
 }
 
@@ -140,7 +140,7 @@ main {
 
 .mob-message {
   height: 74px;
-  background: pink;
+  background: #cac8c5;
 }
 
 .mob-message h4 {
@@ -153,6 +153,14 @@ main {
   width: 85%;
   font-size: 0.65em;
   margin: 6px 25px;
+  color: #b6aea2;
+}
+
+.arrow-icon {
+  position: absolute;
+  height: 30px;
+  bottom: 54px;
+  left: 19%;
 }
 
 .mob-details {
@@ -166,15 +174,33 @@ main {
   float: left;
   width: 47%;
   height: 133px;
-  background: gray;
+  background: #cac8c5;
   margin-right: 7%;
+}
+
+.mob-details h1 {
+  color: #fff;
+  font-size: 4em;
+  margin-top: 13px;
+  margin-bottom: 47px;
+}
+
+.mob-details h6 {
+  color: #4e4e4e;
+  margin: 0;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.7em;
+  background: #b6aea2;
 }
 
 .total-needed {
   float: left;
   width: 46%;
   height: 133px;
-  background: gray;
+  background: #cac8c5;
 }
 
 .total-needed::after {
@@ -205,9 +231,44 @@ main {
   margin: 0 auto;
   background: #fff;
   padding-bottom: 3px;
+  margin-bottom: 4px;
 }
 
 .selected-mob::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.mob-details span {
+  font-size: 0.65em;
+  margin-top: 10px;
+  text-align: center;
+  color: #b6aea2;
+  width: 97%;
+  display: block;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #4e4e4e;
+}
+
+.reward-icon {
+  float: left;
+  width: 13.5%;
+  margin-top: 7px;
+  margin-left: 3%;
+}
+
+.reward h3 {
+  font-weight: bold;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  margin-top: 12px;
+  margin-left: 1.2%;
+  width: 80%;
+  float: left;
+}
+
+.reward h3::after {
   content: "";
   clear: both;
   display: block;

@@ -242,7 +242,7 @@ main {
 
 .mob-details span {
   font-size: 0.65em;
-  margin-top: 10px;
+  margin: 10px 0 14px 0;
   text-align: center;
   color: #b6aea2;
   width: 97%;
@@ -262,8 +262,7 @@ main {
   font-weight: bold;
   font-size: 1em;
   letter-spacing: 0.5px;
-  margin-top: 12px;
-  margin-left: 1.2%;
+  margin: 12px 0 0 1.2%;
   width: 80%;
   float: left;
 }
@@ -272,6 +271,45 @@ main {
   content: "";
   clear: both;
   display: block;
+}
+
+.reward p {
+  font-size: 0.8em;
+  margin-top: 0;
+  margin-left: 18%;
+}
+
+button {
+  height: 25px;
+  border-radius: 13%;
+  border: 1px solid black;
+}
+
+.tweet, .share {
+  width: 19%;
+}
+
+.tweet {
+  background: linear-gradient(to bottom, rgba(212, 232, 244, 0.3)29%, rgba(191, 218, 235, 1));
+  color: #006489;
+  font-size: 0.6em;
+  font-weight: bold;
+}
+
+.plus {
+  width: 12%;
+}
+
+.link-icon {
+  font-size: 0.7em;
+}
+
+a .kickstarter-link {
+  display: inline-block;
+  font-size: 0.7em;
+  margin: 0;
+  margin-left: 1%;
+  width: 34%;
 }
 
 .ending-soon {
@@ -368,7 +406,6 @@ main {
 }
 
 footer {
-  margin-top: 15px;
   height: 307px;
   background: navy;
 }
